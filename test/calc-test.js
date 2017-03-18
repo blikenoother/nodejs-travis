@@ -1,6 +1,6 @@
 var assert = require('assert'),
     vows = require('vows'),
-    calc = require('./calc');
+    calc = require('../calc');
 
 vows.describe('multiply by 2').addBatch({
   'When performing some calculations': {

@@ -1,4 +1,8 @@
 {
-	"name": "nodejs travis ci example",
-	"version": "0.0.1"
+	"devDependencies": {
+		"vows": "0.8.1"
+	},
+	"scripts": {
+		"test": "vows --spec"
+	}
 }
